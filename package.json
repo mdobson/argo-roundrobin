@@ -1,0 +1,29 @@
+{
+  "name": "argo-roundrobin",
+  "version": "0.0.0",
+  "description": "A simple round robin load balance module for argo",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mdobson/argo-roundrobin.git"
+  },
+  "keywords": [
+    "argo",
+    "round-robin",
+    "load",
+    "balance"
+  ],
+  "author": "@mdobs <mdobson4@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mdobson/argo-roundrobin/issues"
+  },
+  "homepage": "https://github.com/mdobson/argo-roundrobin",
+  "devDependencies": {
+    "mocha": "~1.14.0",
+    "argo": "~0.4.7"
+  }
+}
