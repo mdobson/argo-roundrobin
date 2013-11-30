@@ -1,9 +1,7 @@
 module.exports = function(endpoints) {
-  if(!endpoint) {
+  if(!endpoints) {
     throw new Error('Must supply an array of endpoints.');
-  } else {
-    var endpoints = endpoints;
-  };
+  }
 
   return function(handle) {
     handle('request', function(env, next) {
